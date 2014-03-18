@@ -31,3 +31,8 @@ body {
     color: red;
     visibility: hidden;
 }
+
+#range-slider {
+	width: 336px;
+    margin: 0 auto;
+}

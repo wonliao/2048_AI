@@ -3,6 +3,8 @@
         <title>2048</title>
         <link rel="stylesheet" type="text/css" href="main.css">
         
+        <!-- for slider bar -->
+        <link href="./slider_bar/jquery.nouislider.min.css" rel="stylesheet">
     </head>
     <body>
         
@@ -10,8 +12,18 @@
         <div id="gridDiv"></div>
         <div id="gameOverDiv">Game over!</div>
 		
+        <h3>AI 速度</h3>
+       	 <div id="range-slider"></div>
+        
         <script type="text/javascript" src="index.js"></script>
         <script type="text/javascript" src="ai.js"></script>
+        
+        <!-- for slider bar -->
+        <script src="./slider_bar/jquery.min.js"></script>
+		 <script src="./slider_bar/jquery.nouislider.min.js"></script>
+        <script src="./slider_bar/index.js"></script>
+     
+  
         <script type="text/javascript">
 
 			// 執行 2048
