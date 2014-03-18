@@ -1,0 +1,33 @@
+
+body {
+    font: 1.5em Segoe UI, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.row {
+    width: 336px;
+    margin: 0 auto;
+}
+
+.column {
+    width: 76px;
+    padding: 20px 0;
+    float: left;
+    display: block;
+    margin: 2px;
+    border: 2px solid aliceblue;
+    border-radius: 4px;
+}
+
+.clear {
+    clear: both;
+}
+
+#gridDiv {
+    margin-top: 10px;
+}
+
+#gameOverDiv {
+    color: red;
+    visibility: hidden;
+}
