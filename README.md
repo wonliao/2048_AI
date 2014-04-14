@@ -14,7 +14,7 @@ waitTime: 1000,		// 多久執行一次AI(毫秒)
 
 
 
-test
+test 2
 ```
 
 
